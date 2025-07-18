@@ -1,0 +1,31 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background: #fff0f5;
+  font-family: 'Arial', sans-serif;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.texto h1 {
+  color: #e91e63;
+  font-size: 2em;
+  background: #fff0f5aa;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px #e91e63aa;
+}
